@@ -1,0 +1,17 @@
+[ 2014-10-06T09:47:02+08:00 ] ::1 /ThinkPHP_Demo/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.057465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
